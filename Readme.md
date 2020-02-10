@@ -10,15 +10,18 @@ A package using coinlayerAPI
     
 2.Fetch_historical_data(acess_key,date):
 
-     * acess_key: the key that we get from coinLayerAPI.
-     *  date: the date of the historical data that we're looking for.
+      * acess_key: the key that we get from coinLayerAPI.
+      *  date: the date of the historical data that we're looking for.
    
 3.Currency_conversion(access_key,crytpcurrency1,cyptcurrecy2,amount):
 
-     * acess_key: the key that we get from coinLayerAPI.
-     * crytpcurrency1: the currency that we want to convert.
-     * crytpcurrency1: the currency that we want to convert to.
-     * amount: The amount of currency to convert.
+      + acess_key: the key that we get from coinLayerAPI.
+      + crytpcurrency1: the currency that we want to convert.
+      + crytpcurrency1: the currency that we want to convert to.
+      + amount: The amount of currency to convert.
      
 # How to use the package:
-  1. import  CoinlayerAPI 
+  1.Import CoinlayerAPI.functions
+  
+  
+  2.call the function that you want with your own parameters, example : Fetch_historical_data('b36407a99f24a168e534d190404b18f7','2018-02-01')
