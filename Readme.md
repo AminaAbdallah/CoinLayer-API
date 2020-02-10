@@ -9,10 +9,12 @@ A package using coinlayerAPI
     
     
 2.Fetch_historical_data(acess_key,date):
-    * acess_key: the key that we get from coinLayerAPI.
-    * date: the date of the historical data that we're looking for.
+
+     * acess_key: the key that we get from coinLayerAPI.
+     *  date: the date of the historical data that we're looking for.
    
 3.Currency_conversion(access_key,crytpcurrency1,cyptcurrecy2,amount):
+
      * acess_key: the key that we get from coinLayerAPI.
      * crytpcurrency1: the currency that we want to convert.
      * crytpcurrency1: the currency that we want to convert to.
